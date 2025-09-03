@@ -595,6 +595,14 @@ img {
     width: 65%;
 }
 
+.skills__canva {
+    width: 70%;
+}
+
+.skills__figma {
+    width: 65%;
+}
+
 .skills__close .skills__list {
     height: 0;
     overflow: hidden;
