@@ -1,16 +1,8 @@
-/*==================== GOOGLE FONTS ====================*/
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-
-/*==================== VARIABLES CSS ====================*/
-
 :root {
     --header-height: 3rem;
-    /*========== Colors ==========*/
-    /* Change favorite color */
     --hue-color: 230;
     /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
-    /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
     --first-color-second: hsl(var(--hue-color), 69%, 61%);
     --first-color-alt: hsl(var(--hue-color), 57%, 53%);
@@ -23,7 +15,7 @@
     --container-color: #fff;
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
-    /*========== Font and typography ==========*/
+    /*Font*/
     --body-font: 'Poppins', sans-serif;
     /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
     --big-font-size: 2rem;
@@ -68,7 +60,7 @@
 }
 
 
-/*========== Variables Dark theme ==========*/
+/*Dark theme*/
 
 body.dark-theme {
     --first-color-second: hsl(var(--hue-color), 30%, 8%);
@@ -82,7 +74,7 @@ body.dark-theme {
 }
 
 
-/*========== Button Dark/Light ==========*/
+/*Button*/
 
 .nav__btns {
     display: flex;
@@ -99,9 +91,6 @@ body.dark-theme {
 .change-theme:hover {
     color: var(--first-color);
 }
-
-
-/*==================== BASE ====================*/
 
 * {
     box-sizing: border-box;
@@ -142,9 +131,6 @@ img {
     height: auto;
 }
 
-
-/*==================== REUSABLE CSS CLASSES ====================*/
-
 .section {
     padding: 2rem 0 4rem;
 }
@@ -163,9 +149,6 @@ img {
 .section__subtitle {
     text-align: center;
 }
-
-
-/*==================== LAYOUT ====================*/
 
 .container {
     max-width: 768px;
@@ -186,9 +169,6 @@ img {
     z-index: var(--z-fixed);
     background-color: var(--body-color);
 }
-
-
-/*==================== NAV ====================*/
 
 .nav {
     max-width: 968px;
@@ -266,29 +246,17 @@ img {
     color: var(--first-color-alt);
 }
 
-
-/* show menu */
-
 .show-menu {
     bottom: 0;
 }
-
-
-/* Active link */
 
 .active-link {
     color: var(--first-color);
 }
 
-
-/* Change background header */
-
 .scroll-header {
     box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
 }
-
-
-/*==================== HOME ====================*/
 
 .home__container {
     gap: 1rem;
@@ -371,9 +339,6 @@ img {
     font-size: 1.25rem;
 }
 
-
-/*==================== BUTTONS ====================*/
-
 .button {
     display: inline-block;
     background-color: var(--first-color);
@@ -444,9 +409,6 @@ img {
     background-color: transparent;
 }
 
-
-/*==================== ABOUT ====================*/
-
 .about__img {
     width: 200px;
     border-radius: .5rem;
@@ -489,9 +451,6 @@ img {
 .about__buttons:hover .button__icon {
     transform: translateY(.25rem);
 }
-
-
-/*==================== SKILLS ====================*/
 
 .skills__container {
     row-gap: 0;
@@ -617,9 +576,6 @@ img {
     transform: rotate(-180deg);
 }
 
-
-/*==================== QUALIFICATION ====================*/
-
 .education__tabs {
     display: flex;
     justify-content: space-evenly;
@@ -694,9 +650,6 @@ img {
 .education__button.education__active {
     color: var(--first-color);
 }
-
-
-/*==================== SERVICES ====================*/
 
 .services__container {
     gap: 1.5rem;
@@ -791,9 +744,6 @@ img {
     margin-right: var(--mb-0-25);
 }
 
-
-/* Active Modal */
-
 .active-modal {
     opacity: 1;
     visibility: visible;
@@ -858,9 +808,6 @@ img {
     outline: none;
 }
 
-
-/*==================== CONTACT ME ====================*/
-
 .contact__container {
     row-gap: 3rem;
 }
@@ -907,9 +854,6 @@ img {
     outline: none;
     padding: .25rem .5rem .5rem 0;
 }
-
-
-/*==================== FOOTER ====================*/
 
 .footer {
     padding-top: 2rem;
@@ -966,9 +910,6 @@ img {
     color: #fff;
 }
 
-
-/*========== SCROLL UP ==========*/
-
 .scrollup {
     position: fixed;
     right: 1rem;
@@ -990,15 +931,9 @@ img {
     color: #fff;
 }
 
-
-/* Show scroll */
-
 .show-scroll {
     bottom: 5rem;
 }
-
-
-/*========== SCROLL BAR ==========*/
 
 ::-webkit-scrollbar {
     width: .60rem;
@@ -1014,9 +949,6 @@ img {
 ::-webkit-scrollbar-thumb:hover {
     background-color: var(--text-color-light);
 }
-
-
-/*==================== MEDIA QUERIES ====================*/
 
 
 /* For small devices */
