@@ -4,66 +4,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio - JL</title>
-    <link rel="icon" href="assets/img/L.jpg" type="img/x-icon">
 
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css">
+
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" href="assets/img/L.jpg" type="img/x-icon">
+
+    <title>My Portfolio - JL</title>
 </head>
 
 <body>
+
     <header class="header" id="header">
         <nav class="nav container">
             <a href="#" class="nav__logo">JL Gardiola</a>
+
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
-                    <li class="nav__item"><a href="#home" class="nav__link active-link"><i class="uil uil-estate nav__icon"></i> Home</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link"><i class="uil uil-user nav__icon"></i> About</a></li>
-                    <li class="nav__item"><a href="#skills" class="nav__link"><i class="uil uil-file-alt nav__icon"></i> Skills</a></li>
-                    <li class="nav__item"><a href="#edbackground" class="nav__link"><i class="uil uil-graduation-cap nav__icon"></i> Personal Info</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link"><i class="uil uil-file-alt nav__icon"></i> Services</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link"><i class="uil uil-message nav__icon"></i> Contact Me</a></li>
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#edbackground" class="nav__link">
+                            <i class="uil uil-graduation-cap nav__icon"></i> Personal Info
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i> Services
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i> Contact Me
+                        </a>
+                    </li>
+
                 </ul>
                 <i class="uil uil-times nav__close" id="nav-close"></i>
             </div>
+
             <div class="nav__btns">
+
                 <i class="uil uil-moon change-theme" id="theme-button"></i>
-                <div class="nav__toggle" id="nav-toggle"><i class="uil uil-apps"></i></div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
             </div>
         </nav>
     </header>
 
     <main class="main">
+
         <section class="home section" id="home">
             <div class="home__container container grid">
                 <div class="home__content grid">
                     <div class="home__social">
-                        <a href="https://www.facebook.com/jlcg2" target="_blank" class="home__social-icon"><i class="uil uil-facebook"></i></a>
-                        <a href="https://twitter.com/dyelchii" target="_blank" class="home__social-icon"><i class="uil uil-twitter-alt"></i></a>
-                        <a href="https://www.instagram.com/xnoodles18/" target="_blank" class="home__social-icon"><i class="uil uil-instagram"></i></a>
-                        <a href="https://github.com/jlgardiola18" target="_blank" class="home__social-icon"><i class="uil uil-github"></i></a>
+                        <a href="https://www.facebook.com/jlcg2" target="_blank" class="home__social-icon">
+                            <i class="uil uil-facebook"></i>
+                        </a>
+
+                        <a href="https://twitter.com/dyelchii" target="_blank" class="home__social-icon">
+                            <i class="uil uil-twitter-alt"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/xnoodles18/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+
+                        <a href="https://github.com/jlgardiola18" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github"></i>
+                        </a>
                     </div>
+
                     <div class="home__img">
                         <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <mask id="mask0" mask-type="alpha">
-                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                            </mask>
-                            <g mask="url(#mask0)">
-                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                <image class="home__blob-img" x='15' y='10' href="assets/img/jl.png"/>
-                            </g>
-                        </svg>
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <image class="home__blob-img" x='15' y='10' href="assets/img/jl.png"/>
+                                </g>
+                            </svg>
                     </div>
+
+
                     <div class="home__data">
                         <h1 class="home__title">Hi, I'm JL</h1>
                         <h3 class="home__subtitle">Web Developer</h3>
                         <p class="home__description">With Entry level of experience in web design and development knowledge, producing quality work.</p>
-                        <a href="#contact" class="button button--flex">Contact Me<i class="uil uil-message button__icon"></i></a>
+                        <a href="#contact" class="button button--flex">
+                            Contact Me<i class="uil uil-message button__icon"></i>
+                        </a>
                     </div>
                 </div>
+
                 <div class="home__scroll">
                     <a href="#about" class="home__scroll-button button--flex">
                         <i class="uil uil-mouse-alt home__scroll-mouse"></i>
@@ -71,20 +130,43 @@
                         <i class="uil uil-arrow-down home__scroll-arrow"></i>
                     </a>
                 </div>
+
             </div>
         </section>
 
         <section class="about section" id="about">
             <h2 class="section__title">About Me</h2>
             <span class="section__subtitle">My Introduction</span>
+
             <div class="about__container container grid">
                 <img src="assets/img/jl.png" alt="" class="about__img">
                 <div class="about__data">
-                    <p class="about__description">An IT graduate from Colegio de Montalban with a solid foundation in web development, particularly experienced in HTML and CSS. I have hands-on practice building responsive, user-friendly web interfaces and a working knowledge of JavaScript,
-                        Java, PHP, and MySQL. Known for my problem-solving skills, quick learning ability, and keen attention to detail, I am eager to contribute to a dynamic development team and grow within the tech industry.</p>
+                    <p class="about__description">
+                        An IT graduate from Colegio de Montalban with a solid foundation in web development, particularly experienced in HTML and CSS. I have hands-on practice building responsive, user-friendly web interfaces and a working knowledge of JavaScript, Java, PHP,
+                        and MySQL. Known for my problem-solving skills, quick learning ability, and keen attention to detail, I am eager to contribute to a dynamic development team and grow within the tech industry.</p>
+                    <!-- <div class="about__info">
+                        <div>
+                            <span class="about__info-title">08+</span>
+                            <span class="about__info-name">Years <br> experience</span>
+                        </div>
+
+                        <div>
+                            <span class="about__info-title">20+</span>
+                            <span class="about__info-name">Completed <br> project</span>
+                        </div>
+
+                        <div>
+                            <span class="about__info-title">05+</span>
+                            <span class="about__info-name">Companies <br> worked</span>
+                        </div>
+                    </div> -->
+
                     <div class="about__buttons">
-                        <a download="" href="https://drive.google.com/file/d/1VfNY7xVcycR0pHLLOGWZhVN8NZGhU9uS/view?usp=drivesdk" target="_blank" class="button button--flex">Download CV<i class="uil uil-download-alt button__icon"></i></a>
+                        <a download="" href="https://drive.google.com/file/d/1VfNY7xVcycR0pHLLOGWZhVN8NZGhU9uS/view?usp=drivesdk" target="_blank" class="button button--flex">
+                            Download CV<i class="uil uil-download-alt button__icon"></i>
+                        </a>
                     </div>
+
                 </div>
             </div>
         </section>
@@ -92,114 +174,154 @@
         <section class="skills section" id="skills">
             <h2 class="section__title">Skills</h2>
             <span class="section__subtitle">My Technical skill level</span>
+
             <div class="skills__container container grid">
                 <div>
+
                     <div class="skills__content skills__open">
                         <div class="skills__header">
                             <i class="uil uil-brackets-curly skills__icon"></i>
+
                             <div>
                                 <h1 class="skills__title">Programming Skills</h1>
                                 <span class="skills_subtitle">Knowledgeable of</span>
                             </div>
+
                             <i class="uil uil-angle-down skills__arrow"></i>
                         </div>
                         <div class="skills__list grid">
+
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name uil uil-html5-alt"> HTML5</h3>
                                     <span class="skills__number">80%</span>
                                 </div>
-                                <div class="skills__bar"><span class="skills__percentage skills__html"></span></div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div>
                             </div>
+
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name uil uil-css3-simple"> CSS3</h3>
                                     <span class="skills__number">70%</span>
                                 </div>
-                                <div class="skills__bar"><span class="skills__percentage skills__css"></span></div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__css"></span>
+                                </div>
                             </div>
+
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name uil uil-java-script"> JavaScript</h3>
                                     <span class="skills__number">60%</span>
                                 </div>
-                                <div class="skills__bar"><span class="skills__percentage skills__js"></span></div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__js"></span>
+                                </div>
                             </div>
+
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name mdi mdi-language-java"> JAVA</h3>
                                     <span class="skills__number">80%</span>
                                 </div>
-                                <div class="skills__bar"><span class="skills__percentage skills__java"></span></div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__java"></span>
+                                </div>
                             </div>
+
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name mdi mdi-language-php"> PHP</h3>
                                     <span class="skills__number">65%</span>
                                 </div>
-                                <div class="skills__bar"><span class="skills__percentage skills__php"></span></div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__php"></span>
+                                </div>
                             </div>
+
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name uil uil-database"> SQL</h3>
                                     <span class="skills__number">65%</span>
                                 </div>
-                                <div class="skills__bar"><span class="skills__percentage skills__sql"></span></div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__sql"></span>
+                                </div>
                             </div>
+
                         </div>
                     </div>
+
                     <div class="skills__content skills__close">
                         <div class="skills__header">
                             <i class="uil  uil-play skills__icon"></i>
+
                             <div>
                                 <h1 class="skills__title">Other Skills & Hobbies</h1>
                                 <span class="skills_subtitle">Knowledgeable of</span>
                             </div>
+
                             <i class="uil uil-angle-down skills__arrow"></i>
                         </div>
                         <div class="skills__list grid">
+
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name mdi mdi-microsoft-office"> Microsoft Office</h3>
                                 </div>
                             </div>
+
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name mdi mdi-file-word"> Word</h3>
                                     <span class="skills__number">80%</span>
                                 </div>
-                                <div class="skills__bar"><span class="skills__percentage skills__word"></span></div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__word"></span>
+                                </div>
                             </div>
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name mdi mdi-file-excel"> Excel</h3>
                                     <span class="skills__number">70%</span>
                                 </div>
-                                <div class="skills__bar"><span class="skills__percentage skills__excel"></span></div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__excel"></span>
+                                </div>
                             </div>
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name mdi mdi-file-powerpoint"> PowerPoint</h3>
                                     <span class="skills__number">65%</span>
                                 </div>
-                                <div class="skills__bar"><span class="skills__percentage skills__pp"></span></div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__pp"></span>
+                                </div>
                             </div>
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name mdi mdi-file-powerpoint"> Canva</h3>
                                     <span class="skills__number">70%</span>
                                 </div>
-                                <div class="skills__bar"><span class="skills__percentage skills__canva"></span></div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__canva"></span>
+                                </div>
                             </div>
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name mdi mdi-file-powerpoint"> Figma</h3>
                                     <span class="skills__number">65%</span>
                                 </div>
-                                <div class="skills__bar"><span class="skills__percentage skills__figma"></span></div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__figma"></span>
+                                </div>
                             </div>
+
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
@@ -207,226 +329,378 @@
         <section class="edbackground section" id="edbackground">
             <h2 class="section__title">Educational Background</h2>
             <span class="section__subtitle">My Personal Information</span>
+
             <div class="education__container container">
                 <div class="education__tabs">
-                    <div class="education__button button--flex education__active" data-target="#education"><i class="uil uil-graduation-cap education__icon"></i>Education</div>
-                    <div class="education__button button--flex" data-target="#work"><i class="uil uil-briefcase-alt education__icon"></i>Work</div>
+                    <div class="education__button button--flex education__active" data-target='#education'>
+                        <i class="uil uil-graduation-cap education__icon"></i>Education
+                    </div>
+                    <div class="education__button button--flex" data-target="#work">
+                        <i class="uil uil-briefcase-alt education__icon"></i>Work
+                    </div>
                 </div>
+
                 <div class="education__section">
+
                     <div class="education__content education__active" data-content id="education">
+
+
                         <div class="education__data">
                             <div>
                                 <h3 class="education__title">Bachelor of Science in Information Technology, Colegio de Montalban</h3>
                                 <span class="education__subtitle">Kasiglahan Village, Brgy. San Jose, Rodriguez, Rizal</span>
-                                <div class="education__calendar"><i class="uil uil-calendar-alt"></i> 2014 - 2018</div>
+                                <div class="education__calendar">
+                                    <i class="uil uil-calendar-alt"></i> 2014 - 2018
+                                </div>
                             </div>
+
                             <div>
                                 <span class="education__rounder"></span>
                                 <span class="education__line"></span>
                             </div>
                         </div>
+
+
                         <div class="education__data">
                             <div></div>
+
                             <div>
                                 <span class="education__rounder"></span>
                                 <span class="education__line"></span>
                             </div>
+
                             <div>
                                 <h3 class="education__title">Manuel S. Enverga Institute, Foundation, Inc.,</h3>
                                 <span class="education__subtitle">San Antonio, Quezon</span>
-                                <div class="education__calendar"><i class="uil uil-calendar-alt"></i> 2010 - 2014</div>
+                                <div class="education__calendar">
+                                    <i class="uil uil-calendar-alt"></i> 2010 - 2014
+                                </div>
                             </div>
                         </div>
+
+
                         <div class="education__data">
                             <div>
                                 <h3 class="education__title">San Antonio Central School</h3>
                                 <span class="education__subtitle">San Antonio, Quezon</span>
-                                <div class="education__calendar"><i class="uil uil-calendar-alt"></i> 2009 - 2010</div>
+                                <div class="education__calendar">
+                                    <i class="uil uil-calendar-alt"></i> 2009 - 2010
+                                </div>
                             </div>
+
                             <div>
                                 <span class="education__rounder"></span>
                                 <span class="education__line"></span>
                             </div>
                         </div>
+
+
                         <div class="education__data">
                             <div></div>
+
                             <div>
                                 <span class="education__rounder"></span>
+                                <!-- <span class="education__line"></span> -->
                             </div>
+
                             <div>
                                 <h3 class="education__title">Lemery Pilot Elementary School</h3>
                                 <span class="education__subtitle">Lemery, Batangas</span>
-                                <div class="education__calendar"><i class="uil uil-calendar-alt"></i> 2004 - 2009</div>
+                                <div class="education__calendar">
+                                    <i class="uil uil-calendar-alt"></i> 2004 - 2009
+                                </div>
                             </div>
+
+
                         </div>
+
+
                     </div>
+
+
+
                     <div class="education__content" data-content id="work">
+
                         <div class="education__data">
                             <div>
                                 <h3 class="education__title">Tech Support</h3>
                                 <span class="education__subtitle">Intelliworx PH - Business Solutions</span>
-                                <div class="education__calendar"><i class="uil uil-calendar-alt"></i> July 7, 2025 - Present</div>
+                                <div class="education__calendar">
+                                    <i class="uil uil-calendar-alt"></i> July 7, 2025 - Present
+                                </div>
                             </div>
+
                             <div>
                                 <span class="education__rounder"></span>
                                 <span class="education__line"></span>
                             </div>
                         </div>
+
                         <div class="education__data">
                             <div></div>
                             <div>
                                 <span class="education__rounder"></span>
                                 <span class="education__line"></span>
                             </div>
+
                             <div>
                                 <h3 class="education__title">IT Staff</h3>
                                 <span class="education__subtitle">Rural Health Unit - Bacacay</span>
-                                <div class="education__calendar"><i class="uil uil-calendar-alt"></i> November 4, 2024 - March 31, 2025</div>
+                                <div class="education__calendar">
+                                    <i class="uil uil-calendar-alt"></i> November 4, 2024 - March 31, 2025
+                                </div>
                             </div>
                         </div>
+
                         <div class="education__data">
                             <div>
                                 <h3 class="education__title">Clerk II</h3>
                                 <span class="education__subtitle">LTFRB Central Office</span>
-                                <div class="education__calendar"><i class="uil uil-calendar-alt"></i> January 19, 2019 - April 13, 2022</div>
+                                <div class="education__calendar">
+                                    <i class="uil uil-calendar-alt"></i> January 19, 2019 - April 13, 2022
+                                </div>
                             </div>
+
                             <div>
                                 <span class="education__rounder"></span>
+                                <!-- <span class="education__line"></span> -->
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="services section" id="services">
+
             <h2 class="section__title">Services</h2>
             <span class="section__subtitle">What i can offer</span>
+
             <div class="services__container container grid">
+
+
                 <div class="services__content">
                     <div>
                         <i class="uil uil-folder-lock services__icon"></i>
                         <h3 class="services__title">Management System using<br> PHP & MYSQL</h3>
                     </div>
-                    <span class="button button--flex button--small button--link services__button">View More<i class="uil uil-arrow-right button__icon"></i></span>
+                    <span class="button button--flex button--small button--link services__button">
+                            View More
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
                     <div class="services__modal">
                         <div class="services__modal-content">
                             <h4 class="services__modal-title">Management System using<br> PHP & MYSQL</h4>
                             <i class="uil uil-times services__modal-close"></i>
+
                             <ul class="services__modal-services grid">
-                                <li class="services__modal-service"><i class="uil uil-check-circle services__modal-icon"></i>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
                                     <p>Has a login capability – Ensures secure authentication for users and admins.</p>
                                 </li>
-                                <li class="services__modal-service"><i class="uil uil-check-circle services__modal-icon"></i>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
                                     <p>Full CRUD functionality – Allows users to Create, Read, Update, and Delete data seamlessly.</p>
                                 </li>
-                                <li class="services__modal-service"><i class="uil uil-check-circle services__modal-icon"></i>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
                                     <p>Role-based access control – Admins can manipulate data, while non-users have view-only access.</p>
                                 </li>
-                                <li class="services__modal-service"><i class="uil uil-check-circle services__modal-icon"></i>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
                                     <p>Export records as Excel or PDF – Enables easy data retrieval and reporting.</p>
                                 </li>
-                                <li class="services__modal-service"><i class="uil uil-check-circle services__modal-icon"></i>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
                                     <p>Search and filter features – Quickly find specific records using dynamic search.</p>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
+
                 <div class="services__content">
                     <div>
                         <i class="uil uil-browser services__icon"></i>
                         <h3 class="services__title">Simple POS<br>System using Woocommerce</h3>
                     </div>
-                    <span class="button button--flex button--small button--link services__button">View More<i class="uil uil-arrow-right button__icon"></i></span>
+                    <span class="button button--flex button--small button--link services__button">
+                            View More
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
                     <div class="services__modal">
                         <div class="services__modal-content">
                             <h4 class="services__modal-title">Simple POS System using<br> Woocommerce</h4>
                             <i class="uil uil-times services__modal-close"></i>
+
                             <ul class="services__modal-services grid">
-                                <li class="services__modal-service"><i class="uil uil-check-circle services__modal-icon"></i>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
                                     <p>Has a login capability – Ensures secure access for admins and users.</p>
                                 </li>
-                                <li class="services__modal-service"><i class="uil uil-check-circle services__modal-icon"></i>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
                                     <p>Can Add, Update, and Remove products – Manage inventory efficiently.</p>
                                 </li>
-                                <li class="services__modal-service"><i class="uil uil-check-circle services__modal-icon"></i>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
                                     <p>Admin control over product details – Set prices, descriptions, and discounts dynamically.</p>
                                 </li>
-                                <li class="services__modal-service"><i class="uil uil-check-circle services__modal-icon"></i>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
                                     <p>Customer order management – View, process, and update order statuses.</p>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
+
                 <div class="services__content">
                     <div>
                         <i class="uil uil-desktop-cloud-alt services__icon"></i>
                         <h3 class="services__title">Simple HTML, CSS <br> & JS Programs</h3>
                     </div>
                     <br>
-                    <span class="button button--flex button--small button--link services__button">View More<i class="uil uil-arrow-right button__icon"></i></span>
+                    <span class="button button--flex button--small button--link services__button">
+                            View More
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
                     <div class="services__modal">
                         <div class="services__modal-content">
                             <h4 class="services__modal-title">Simple HTML, CSS & JS Programs</h4>
                             <i class="uil uil-times services__modal-close"></i>
+
                             <ul class="services__modal-services grid">
-                                <li class="services__modal-service"><i class="uil uil-check-circle services__modal-icon"></i>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
                                     <p><a href="https://jlgardiola18.github.io/tictactoe-htmlcssjs/" target="_blank">Tic Tac Toe Game</a></p>
                                 </li>
-                                <li class="services__modal-service"><i class="uil uil-check-circle services__modal-icon"></i>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
                                     <p><a href="https://jlgardiola18.github.io/tictactoe/" target="_blank">Tic Tac Toe Game - 2P</a></p>
                                 </li>
-                                <li class="services__modal-service"><i class="uil uil-check-circle services__modal-icon"></i>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
                                     <p><a href="https://jlgardiola18.github.io/musicplaylist/" target="_blank">Music Playlist</a></p>
                                 </li>
-                                <li class="services__modal-service"><i class="uil uil-check-circle services__modal-icon"></i>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
                                     <p><a href="https://jlgardiola18.github.io/musicplayer/" target="_blank">Music Player</a></p>
                                 </li>
-                                <li class="services__modal-service"><i class="uil uil-check-circle services__modal-icon"></i>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
                                     <p><a href="https://jlgardiola18.github.io/sun-moon-switcher/" target="_blank">Light & Dark Mode Theme</a></p>
                                 </li>
-                                <li class="services__modal-service"><i class="uil uil-check-circle services__modal-icon"></i>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
                                     <p><a href="https://jlgardiola18.github.io/birthday/" target="_blank">Birthday</a></p>
                                 </li>
-                                <li class="services__modal-service"><i class="uil uil-check-circle services__modal-icon"></i>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
                                     <p><a href="https://jlgardiola18.github.io/loveletter/" target="_blank">Letter</a></p>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
+
             </div>
         </section>
+
+        <!-- <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most recent work</span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Modern Website</h3>
+                            <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quisquam possimus delectus veritatis velit, earum illo ut, facere non fugit asperiores eius deserunt dolorum aperiam? Vel sequi pariatur tempore blanditiis!</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                            Demo
+                            <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Modern Website</h3>
+                            <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quisquam possimus delectus veritatis velit, earum illo ut, facere non fugit asperiores eius deserunt dolorum aperiam? Vel sequi pariatur tempore blanditiis!</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                            Demo
+                            <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/wallpaper.jpg" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Modern Website</h3>
+                            <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quisquam possimus delectus veritatis velit, earum illo ut, facere non fugit asperiores eius deserunt dolorum aperiam? Vel sequi pariatur tempore blanditiis!</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                            Demo
+                            <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section> -->
 
         <section class="contact section" id="contact">
             <h2 class="section__title">Contact Me</h2>
             <span class="section__subtitle">Get in touch</span>
+
+
             <div class="contact__container container grid">
                 <div>
+
                     <div class="contact__information">
                         <i class="uil uil-phone contact__icon"></i>
+
                         <div>
                             <h3 class="contact__title">Contact Number</h3>
                             <span class="contact__subtitle">(+63)950-188-0189</span>
                         </div>
                     </div>
+
                     <div class="contact__information">
                         <i class="uil uil-envelope contact__icon"></i>
+
                         <div>
                             <h3 class="contact__title">Email Address</h3>
                             <span class="contact__subtitle">jlgardiola18@gmail.com</span>
                         </div>
                     </div>
+
                     <div class="contact__information">
                         <i class="uil uil-map-marker contact__icon"></i>
+
                         <div>
                             <h3 class="contact__title">Location</h3>
                             <span class="contact__subtitle">Silangan Village, Brgy. Geronimo, Rodriguez, Rizal</span>
                         </div>
                     </div>
                 </div>
+
                 <form action="https://formspree.io/f/xbjqpdjj" class="contact__form grid" method="POST" id="my-form">
                     <div class="contact__inputs grid">
                         <div class="contact__content">
@@ -446,7 +720,12 @@
                         <label for="message" class="contact__label">Message</label>
                         <textarea name="message" id="message" cols="0" rows="7" class="contact__input"></textarea>
                     </div>
-                    <div><button type="submit" class="submit button--flex">Send Message<i class="uil uil-message submit__icon"></i></button></div>
+                    <div>
+                        <button type="submit" class="submit button--flex">
+                                Send Message
+                                <i class="uil uil-message submit__icon"></i>
+                        </button>
+                    </div>
                 </form>
                 <div></div>
                 <div id="status"></div>
@@ -461,25 +740,55 @@
                     <h1 class="footer__title">JL Gardiola</h1>
                     <span class="footer__subtitle">Web Developer</span>
                 </div>
+
                 <ul class="footer__links">
-                    <li><a href="#services" class="footer__link">Services</a></li>
-                    <li><a href="#contact" class="footer__link">Contact Me</a></li>
+
+                    <li>
+                        <a href="#services" class="footer__link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact Me</a>
+                    </li>
                 </ul>
+
                 <div class="footer__socials">
-                    <a href="https://www.facebook.com/jlcg2" target="_blank" class="footer__social"><i class="uil uil-facebook"></i></a>
-                    <a href="https://twitter.com/dyelchii" target="_blank" class="footer__social"><i class="uil uil-twitter-alt"></i></a>
-                    <a href="https://www.instagram.com/xnoodles18/" target="_blank" class="footer__social"><i class="uil uil-instagram"></i></a>
-                    <a href="https://github.com/jlgardiola18" target="_blank" class="footer__social"><i class="uil uil-github"></i></a>
+                    <a href="https://www.facebook.com/jlcg2" target="_blank" class="footer__social">
+                        <i class="uil uil-facebook"></i>
+                    </a>
+                    <a href="https://twitter.com/dyelchii" target="_blank" class="footer__social">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/xnoodles18/" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+
+                    <a href="https://github.com/jlgardiola18" target="_blank" class="footer__social">
+                        <i class="uil uil-github"></i>
+                    </a>
                 </div>
             </div>
+
             <p class="footer__copy">&#169; All right reserved</p>
+
         </div>
     </footer>
 
-    <a href="#" class="scrollup" id="scroll-up"><i class="uil uil-arrow-up scrollup__icon"></i></a>
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
 
-    <script src="assets/js/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
+</body>
+
+</html>
+<a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up scrollup__icon"></i>
+</a>
+
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="assets/js/main.js">
+</script>
 </body>
 
 </html>
