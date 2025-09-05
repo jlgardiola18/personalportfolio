@@ -360,24 +360,24 @@ img {
     transform: translateX(.25rem);
 }
 
-.button--flex,
+.button-flex,
 .about_buttons {
     display: inline-flex;
     align-items: center;
 }
 
-.button--small {
+.button-small {
     padding: .75rem 1rem;
 }
 
-.button--link {
+.button-link {
     padding: 0;
     background-color: transparent;
     color: var(--first-color);
     color: var(--first-color-alt);
 }
 
-.button--link:hover {
+.button-link:hover {
     background-color: transparent;
 }
 
