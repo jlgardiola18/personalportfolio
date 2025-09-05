@@ -1,8 +1,7 @@
-// Nav and Menu
 const navMenu = document.getElementById('nav-menu');
 const navToggle = document.getElementById('nav-toggle');
 const navClose = document.getElementById('nav-close');
-const navLinks = document.querySelectorAll('.nav__link');
+const navLinks = document.querySelectorAll('.nav_link');
 
 if (navToggle) {
     navToggle.addEventListener('click', () => navMenu.classList.add('show-menu'));
@@ -14,26 +13,24 @@ if (navClose) {
 
 navLinks.forEach(link => link.addEventListener('click', () => navMenu.classList.remove('show-menu')));
 
-// Skills Toggle
-const skillsHeaders = document.querySelectorAll('.skills__header');
+const skillsHeaders = document.querySelectorAll('.skills_header');
 skillsHeaders.forEach(header => {
     header.addEventListener('click', () => {
         const parent = header.parentNode;
-        const isOpen = parent.classList.contains('skills__open');
+        const isOpen = parent.classList.contains('skills_open');
 
-        document.querySelectorAll('.skills__content').forEach(content => {
-            content.classList.remove('skills__open');
-            content.classList.add('skills__close');
+        document.querySelectorAll('.skills_content').forEach(content => {
+            content.classList.remove('skills_open');
+            content.classList.add('skills_close');
         });
 
         if (!isOpen) {
-            parent.classList.remove('skills__close');
-            parent.classList.add('skills__open');
+            parent.classList.remove('skills_close');
+            parent.classList.add('skills_open');
         }
     });
 });
 
-// Education/Work Tabs
 const tabs = document.querySelectorAll('[data-target]');
 const tabContents = document.querySelectorAll('[data-content]');
 
@@ -41,18 +38,17 @@ tabs.forEach(tab => {
     tab.addEventListener('click', () => {
         const target = document.querySelector(tab.dataset.target);
 
-        tabContents.forEach(content => content.classList.remove('education__active'));
-        target.classList.add('education__active');
+        tabContents.forEach(content => content.classList.remove('education_active'));
+        target.classList.add('education_active');
 
-        tabs.forEach(t => t.classList.remove('education__active'));
-        tab.classList.add('education__active');
+        tabs.forEach(t => t.classList.remove('education_active'));
+        tab.classList.add('education_active');
     });
 });
 
-// Service Modals
-const modalViews = document.querySelectorAll('.services__modal');
-const modalBtns = document.querySelectorAll('.services__button');
-const modalCloses = document.querySelectorAll('.services__modal-close');
+const modalViews = document.querySelectorAll('.services_modal');
+const modalBtns = document.querySelectorAll('.services_button');
+const modalCloses = document.querySelectorAll('.services_modal-close');
 
 modalBtns.forEach((btn, i) => {
     btn.addEventListener('click', () => modalViews[i].classList.add('active-modal'));
@@ -64,7 +60,6 @@ modalCloses.forEach(closeBtn => {
     });
 });
 
-// Active Link on Scroll
 const sections = document.querySelectorAll('section[id]');
 window.addEventListener('scroll', () => {
     const scrollY = window.pageYOffset;
@@ -73,7 +68,7 @@ window.addEventListener('scroll', () => {
         const sectionTop = current.offsetTop - 50;
         const sectionId = current.getAttribute('id');
 
-        const navLink = document.querySelector(`.nav__menu a[href*='${sectionId}']`);
+        const navLink = document.querySelector(`.nav_menu a[href*='${sectionId}']`);
         if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
             navLink.classList.add('active-link');
         } else {
@@ -82,7 +77,6 @@ window.addEventListener('scroll', () => {
     });
 });
 
-// Scroll Header
 const header = document.getElementById('header');
 window.addEventListener('scroll', () => {
     if (window.scrollY >= 80) {
@@ -92,7 +86,6 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Scroll Up Button
 const scrollUp = document.getElementById('scroll-up');
 window.addEventListener('scroll', () => {
     if (window.scrollY >= 560) {
@@ -102,7 +95,6 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Dark/Light Theme
 const themeButton = document.getElementById('theme-button');
 const darkTheme = 'dark-theme';
 const iconTheme = 'uil-sun';
@@ -122,7 +114,6 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', themeButton.classList.contains(iconTheme) ? 'uil-sun' : 'uil-moon');
 });
 
-// Form Submission
 window.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById("my-form");
     const status = document.getElementById("status");
