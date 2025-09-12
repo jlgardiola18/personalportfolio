@@ -629,19 +629,19 @@ img {
     position: relative;
     background-color: var(--container-color);
     padding: 3.5rem .5rem 1.25rem 1.5rem;
-    border-radius: .25rem;
+    border-radius: .75rem;
+    border: 1px solid transparent;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
-    transition: .3s;
+    transition: box-shadow 0.4s ease, border-color 0.4s ease;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* Ensure everything is aligned properly */
     height: 100%;
-    /* Ensure the container takes full height */
 }
 
 .services_content:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, .15);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    border-color: var(--first-color);
 }
 
 .services_icon {
@@ -660,10 +660,19 @@ img {
 .services_button {
     cursor: pointer;
     font-size: var(--small-font-size);
+    display: inline-flex;
+    align-items: center;
+    transition: color 0.3s ease, padding-left 0.3s ease;
+}
+
+.services_button:hover {
+    color: var(--first-color);
+    padding-left: 0.5rem;
 }
 
 .services_button:hover .button_icon {
-    transform: translateX(.25rem);
+    margin-left: 0.25rem;
+    transition: margin-left 0.3s ease;
 }
 
 .services_modal {
@@ -672,7 +681,7 @@ img {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -680,14 +689,25 @@ img {
     z-index: var(--z-modal);
     opacity: 0;
     visibility: hidden;
-    transition: .3s;
+    transition: opacity 0.4s ease, visibility 0.4s ease;
+}
+
+.services_modal.active {
+    opacity: 1;
+    visibility: visible;
 }
 
 .services_modal-content {
     position: relative;
     background-color: var(--container-color);
     padding: 1.5rem;
-    border-radius: .5rem;
+    border-radius: .75rem;
+    border: 1px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.services_modal-content:hover {
+    border-color: var(--first-color);
 }
 
 .services_modal-services {
@@ -711,11 +731,18 @@ img {
     font-size: 1.5rem;
     color: var(--first-color);
     cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.services_modal-close:hover {
+    color: var(--first-color-hover, #555);
+    /* Optional darker color on hover */
 }
 
 .services_modal-icon {
     color: var(--first-color);
     margin-right: var(--mb-0-25);
+    transition: color 0.3s ease;
 }
 
 .active-modal {
